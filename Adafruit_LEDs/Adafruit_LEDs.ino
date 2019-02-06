@@ -21,7 +21,7 @@ void loop() {
   //Read value from any sensor
   sensorValue = analogRead(sensorPin);  
  
-  //Using the map function, we can take any sesor input  and align it to a location on the LED strip
+  //Using the map function, we can take any sensor input and align it to a location on the LED strip
   ledValue = map(sensorValue, 0, 1023, 0, NUM_LEDS);
   
   //Clear past LED configuration and reset fade
