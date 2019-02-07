@@ -60,7 +60,8 @@ void loop() {
   
   // read the value from the sensor:
   sensorValue = analogRead(sensorPin);
-
+  Serial.println(sensorValue);
+  delay(100);
   // if the value is above the treshold, turn the LED on
   // and the "tense" boolean is "true"
   if(sensorValue>threshold){

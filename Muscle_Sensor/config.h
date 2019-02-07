@@ -14,8 +14,8 @@
 //   - Feather M0 WiFi -> https://www.adafruit.com/products/3010
 //   - Feather WICED -> https://www.adafruit.com/products/3056
 
-#define WIFI_SSID       "drdreadful"
-#define WIFI_PASS       "arduinotime"
+#define WIFI_SSID       "Droid"
+#define WIFI_PASS       "poopface"
 
 // comment out the following two lines if you are using fona or ethernet
 #include "AdafruitIO_WiFi.h"
