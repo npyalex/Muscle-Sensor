@@ -20,8 +20,8 @@
 
 #include "config.h" // change local wifi settings in the config.h tab
 
-int sensorPin = A0;    // select the input pin for the muscle sensor
-int ledPin = 13;      // select the pin for the LED
+int sensorPin = A0;    //  input pin for the muscle sensor
+int ledPin = 13;      //  pin for the LED
 int sensorValue = 0;  // variable to store the value coming from the sensor
 int lastRead;         //variable to hold the timer's value
 int sampleRate = 10000; //check the sensor every 10 seconds
@@ -60,6 +60,7 @@ void loop() {
   
   // read the value from the sensor:
   sensorValue = analogRead(sensorPin);
+  // print the value so it can be read in the Serial port
   Serial.println(sensorValue);
   delay(100);
   // if the value is above the treshold, turn the LED on

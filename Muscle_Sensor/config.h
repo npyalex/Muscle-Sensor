@@ -2,8 +2,8 @@
 
 // visit io.adafruit.com if you need to create an account,
 // or if you need your Adafruit IO key.
-#define IO_USERNAME    "npyalex"
-#define IO_KEY         "0faf4d09a86047e8bc31e93a71d191d8"
+#define IO_USERNAME    "....."
+#define IO_KEY         "....."
 
 /******************************* WIFI **************************************/
 
@@ -14,8 +14,8 @@
 //   - Feather M0 WiFi -> https://www.adafruit.com/products/3010
 //   - Feather WICED -> https://www.adafruit.com/products/3056
 
-#define WIFI_SSID       "Droid"
-#define WIFI_PASS       "poopface"
+#define WIFI_SSID       "...." // enter  your wifi credentials
+#define WIFI_PASS       "...."
 
 // comment out the following two lines if you are using fona or ethernet
 #include "AdafruitIO_WiFi.h"
